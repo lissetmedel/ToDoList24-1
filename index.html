@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="manifest" href="manifest.json">
+	<title>TODO LIST</title>
+</head>
+<body>
+	<header>
+		<h1 class="r-bold">Mis pendientes</h1>
+		<h5 class="r-light" id="fecha"></h5>
+	</header>
+	
+	<section>
+		<article>
+			<input type="text" placeholder="Escribe aquí" id="nuevaTarea">
+			<button onclick="agregar()">+</button>
+		</article>
+
+		<h3 class="r-medium">Por hacer</h3>
+		<nav class="porhacer">
+			
+		</nav>
+
+		
+		<h3 class="r-medium">Terminado</h3>
+		<nav class="terminado">
+			
+		</nav>
+	</section>
+</body>
+</html>
+
+<script type="text/javascript" src="funciones.js"></script>
+<script type="text/javascript">
+	//eventos del navegador
+	window.addEventListener('load', init);
+</script>
+
+
+
+
+
